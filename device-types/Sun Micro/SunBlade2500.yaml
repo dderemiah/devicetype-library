@@ -1,0 +1,18 @@
+---
+manufacturer: 'Sun Micro'
+model: 'SunBlade 2500'
+slug: 'sunblade-2500'
+u_height: 4
+is_full_depth: true
+airflow: front-to-rear
+console-ports:
+  - name: Console
+    type: de-9
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    maximum_draw: 670
+    allocated_draw: 300
