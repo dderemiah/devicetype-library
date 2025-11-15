@@ -5,7 +5,7 @@ slug: dell-poweredge-r720xd
 u_height: 2
 is_full_depth: true
 comments: |
-  [Dell R610 Data Sheet](https://www.dell.com/learn/lv/en/lvchn1/shared-content~data-sheets~en/documents~esg-dell_poweredge_r720xd-spec-sheet.pdf)
+  [Dell R720XD Data Sheet](https://dl.dell.com/rdoc/dell%20poweredge%20r720xd,e14s,e14s001,dell%20regulatory%20and%20environmental%20datasheet.pdf)
 console-ports:
   - name: Serial
     type: de-9

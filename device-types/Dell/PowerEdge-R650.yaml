@@ -4,17 +4,9 @@ model: PowerEdge R650
 slug: dell-poweredge-r650
 u_height: 1
 is_full_depth: true
-subdevice_role: parent
 console-ports:
   - name: Optional Rear Serial
     type: de-9
-power-ports:
-  - name: Power 1
-    type: iec-60320-c14
-    maximum_draw: 800
-  - name: Power 2
-    type: iec-60320-c14
-    maximum_draw: 800
 interfaces:
   - name: Gig-E 1
     type: 1000base-t
@@ -24,6 +16,7 @@ interfaces:
     type: 1000base-t
     mgmt_only: true
 module-bays:
+<<<<<<< Updated upstream
   - name: Optional OCP NIC
     position: ocp
   - name: Optional BOSS-2 Removed
@@ -34,3 +27,13 @@ module-bays:
     position: pcie2
   - name: Optional PCIe-Gen4 3
     position: pcie3
+=======
+  - name: PSU-1
+    label: '1'
+    position: PSU-1
+  - name: PSU-2
+    label: '2'
+    position: PSU-2
+  - name: NUMA 0 - OCP slot 1
+    position: OCP-1
+>>>>>>> Stashed changes

@@ -1,0 +1,10 @@
+---
+manufacturer: Dell
+model: 540-BCNT
+part_number: 540-BCNT
+comments: Broadcom 12 Dual Port 10GbE SFP+ Adapter
+interfaces:
+  - name: Ethernet{module}/1
+    type: 10gbase-x-sfpp
+  - name: Ethernet{module}/2
+    type: 10gbase-x-sfpp

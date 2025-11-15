@@ -1,0 +1,28 @@
+---
+manufacturer: Tintri
+model: Tintri Controller
+slug: tintri-controller
+description: Storage controller Tintri
+interfaces:
+  - name: '{module}/mgt'
+    type: 1000base-t
+    mgmt_only: true
+    description: BMC port
+  - name: '{module}/0a'
+    type: 1000base-t
+    description: Admin port
+  - name: '{module}/0b'
+    type: 1000base-t
+    description: Admin port
+  - name: '{module}/0d'
+    type: 10gbase-x-sfpp
+    description: Replication port
+  - name: '{module}/0e'
+    type: 10gbase-x-sfpp
+    description: Replication port
+  - name: '{module}/2a'
+    type: 10gbase-x-sfpp
+    description: Data port
+  - name: '{module}/2b'
+    type: 10gbase-x-sfpp
+    description: Data port

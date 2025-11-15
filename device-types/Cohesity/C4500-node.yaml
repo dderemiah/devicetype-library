@@ -1,0 +1,18 @@
+---
+manufacturer: Cohesity
+model: C4500 node
+slug: cohesity-c4500-node
+u_height: 0
+is_full_depth: true
+subdevice_role: child
+airflow: front-to-rear
+weight: 5
+weight_unit: kg
+interfaces:
+  - name: SFP-1
+    type: 10gbase-x-sfpp
+  - name: SFP-2
+    type: 10gbase-x-sfpp
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true

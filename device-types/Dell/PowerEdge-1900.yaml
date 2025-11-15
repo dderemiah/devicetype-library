@@ -1,8 +1,8 @@
 ---
 manufacturer: Dell
-model: PowerEdge 1950
-slug: dell-poweredge-1950
-u_height: 1
+model: PowerEdge 1900
+slug: dell-poweredge-1900
+u_height: 12
 is_full_depth: true
 airflow: front-to-rear
 console-ports:
@@ -13,12 +13,12 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 670
     allocated_draw: 300
-  - name: PSU2
-    type: iec-60320-c14
-    maximum_draw: 670
-    allocated_draw: 300
+  # - name: PSU2
+  #   type: iec-60320-c14
+  #   maximum_draw: 670
+  #   allocated_draw: 300
 interfaces:
   - name: Gig-E 1
     type: 1000base-t
-  - name: Gig-E 2
-    type: 1000base-t
+  # - name: Gig-E 2
+  #   type: 1000base-t

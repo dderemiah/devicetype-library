@@ -1,7 +1,7 @@
 ---
 manufacturer: Dell
-model: PowerEdge R820
-slug: dell-poweredge-r820
+model: PowerEdge R810
+slug: dell-poweredge-r810
 u_height: 2
 is_full_depth: true
 console-ports:
@@ -10,12 +10,8 @@ console-ports:
 power-ports:
   - name: Power 1
     type: iec-60320-c14
-    maximum_draw: 670
-    allocated_draw: 300
   - name: Power 2
     type: iec-60320-c14
-    maximum_draw: 670
-    allocated_draw: 300
 interfaces:
   - name: Gig-E 1
     type: 1000base-t

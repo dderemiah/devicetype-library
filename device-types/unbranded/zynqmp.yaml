@@ -1,0 +1,16 @@
+---
+manufacturer: Unbranded
+model: ZynqMP
+slug: zynqmp
+u_height: 1
+is_full_depth: false
+description: ZynqMP target board
+console-ports:
+  - name: Console
+    type: usb-micro-b
+power-ports:
+  - name: power
+    type: nema-5-15p
+interfaces:
+  - name: gem0
+    type: 1000base-t

@@ -1,0 +1,18 @@
+---
+manufacturer: Dell
+model: PowerEdge FX2 CMC
+slug: poweredge-fx2-cmc
+airflow: passive
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: Gb1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Gb2/STK
+    type: 1000base-t
+    mgmt_only: true
+
+comments: |
+  [Dell FX2/FX2s Manual](https://dl.dell.com/topicspdf/fx_fx2_owners_manual_en-us.pdf)

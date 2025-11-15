@@ -1,0 +1,9 @@
+---
+manufacturer: Tintri
+model: Tintri PSU
+slug: tintri-psu
+description: Tintri -Watts AC Power Supply
+power-ports:
+  - name: '{module}'
+    type: iec-60320-c14
+    maximum_draw: 1800

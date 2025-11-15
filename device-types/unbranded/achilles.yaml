@@ -1,0 +1,18 @@
+---
+manufacturer: Unbranded
+model: Achilles test appliance
+slug: achilles-test-appliance
+u_height: 2
+is_full_depth: false
+comments: wurldtech achilles test platform
+interfaces:
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true
+  - name: port1
+    type: 1000base-t
+  - name: port2
+    type: 1000base-t
+power-ports:
+  - name: power
+    type: iec-60320-c14
